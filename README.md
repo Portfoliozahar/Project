@@ -36,7 +36,7 @@
 
 
 
-  CREATE TABLE [dbo].[test] 
+  CREATE TABLE [dbo].[Acc] 
 
 (
   
