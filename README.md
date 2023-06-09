@@ -23,32 +23,6 @@
 
 
 
-код для создания стола 
-
-
-
-
-
-  CREATE TABLE [dbo].[Acc] 
-
-(
-  
-    [Id]     INT     IDENTITY (1,1)   NOT NULL,
-
-    [Name]   NCHAR(30) NULL,
-
-    [Amount] NCHAR(20)        NULL, 
-
-    PRIMARY KEY CLUSTERED ([Id] ASC)
-    
-);
-
-В конфиге прописать 
-
-<connectionStrings>
-		<add name="Database1" connectionString="ваш путь к базе" />
-	</connectionStrings>
-
 
 
 ## Зависимости
